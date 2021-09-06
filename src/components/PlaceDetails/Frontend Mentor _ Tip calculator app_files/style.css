@@ -1,0 +1,144 @@
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.footer-bottom{
+    font-size: 12.5px;
+    text-align: center;
+    bottom: 0;
+    left:0;
+    position:absolute;
+    background-color: #1DD3B0;
+    width:100%;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    text-decoration:solid;
+}
+
+.logo{
+    text-align: center;
+    margin:50px;
+    
+}
+
+.footer-bottom {
+    color: aliceblue;
+} 
+
+body {
+    background-color: hsl(180, 57%, 87%);
+
+}
+
+/* Form .CARD */
+
+
+.logo{
+    margin:5rem 0 3.2rem 0;
+}
+.container{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.outside-box{
+    background-color: white;
+    height:50px; 
+    width:100%;
+    border-radius:2.5rem;
+
+}
+
+
+
+/* .outside-box{
+
+    width:750px;
+    height:350px;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    justify-content: center;
+    display: inline-flex;
+} */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+
+
+
+}
+    /* .grid,
+    .showcase .grid,
+    .stats .grid,
+    .cli .grid,
+    .cloud .grid,
+    .features-main .grid,
+    .docs-main .grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+  
+    .showcase {
+      height: auto;
+    }
+  
+    .showcase-text {
+      text-align: center;
+      margin-top: 40px;
+      animation: slideInFromTop 1s ease-in;
+    }
+  
+    .showcase-form {
+      justify-self: center;
+      margin: auto;
+      animation: slideInFromBottom 1s ease-in;
+    }
+  
+    .cli .grid > *:first-child {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  
+    .features-head,
+    .features-sub-head,
+    .docs-head {
+      text-align: center;
+    }
+  
+    .features-head img,
+    .features-sub-head img,
+    .docs-head img {
+      justify-self: center;
+    }
+  
+    .features-main .grid > *:first-child,
+    .features-main .grid > *:nth-child(2) {
+      grid-column: 1;
+    }
+  } */
+  
+  /* Mobile */
+  @media (max-width: 500px) {
+  }
